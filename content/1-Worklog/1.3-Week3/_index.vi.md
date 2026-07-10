@@ -38,8 +38,8 @@ Lưu vào thư mục /images/1-Worklog/1.3-Week3/ và đặt tên tương ứng:
 
 -->
 
-![EC2 Instance Running](/images/1-Worklog/1.3-Week3/week3-1.png)
+![EC2 Instance Running](/workshop_intership_report/images/1-Worklog/1.3-Week3/week3-1.png)
 <p align="center"><i>Hình 1: Khởi tạo và vận hành thành công máy chủ ảo Linux trên Amazon EC2.</i></p>
 
-![Security Group Configuration](/images/1-Worklog/1.3-Week3/week3-2.png)
+![Security Group Configuration](/workshop_intership_report/images/1-Worklog/1.3-Week3/week3-2.png)
 <p align="center"><i>Hình 2: Cấu hình tường lửa có trạng thái thông qua Security Groups để cho phép truy cập HTTP và giới hạn SSH.</i></p>

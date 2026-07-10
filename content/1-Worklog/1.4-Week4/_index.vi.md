@@ -37,9 +37,9 @@ Lưu vào thư mục /images/1-Worklog/1.4-Week4/ và đặt tên tương ứng:
 
 -->
 
-![Target Group Health](/images/1-Worklog/1.4-Week4/week4-1.png)
+![Target Group Health](/workshop_intership_report/images/1-Worklog/1.4-Week4/week4-1.png)
 <p align="center"><i>Hình 1: Xác nhận các máy chủ EC2 vượt qua bài kiểm tra sức khỏe (Health Check) của Application Load Balancer.</i></p>
 
-![Auto Scaling Group](/images/1-Worklog/1.4-Week4/week4-2.png)
+![Auto Scaling Group](/workshop_intership_report/images/1-Worklog/1.4-Week4/week4-2.png)
 <p align="center"><i>Hình 2: Cấu hình Auto Scaling Group để tự động cấp phát máy chủ dựa trên tải lượng truy cập thực tế.</i></p>
 

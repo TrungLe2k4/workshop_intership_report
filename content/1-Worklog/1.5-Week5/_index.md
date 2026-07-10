@@ -37,9 +37,9 @@ Image requirements for Week 5:
 
 -->
 
-![Amazon RDS Deployment](/images/1-Worklog/1.5-Week5/week5-1.png)
+![Amazon RDS Deployment](/workshop_intership_report/images/1-Worklog/1.5-Week5/week5-1.png)
 <p align="center"><i>Figure 1: Successfully provisioned an Amazon RDS instance within a securely isolated Private Subnet.</i></p>
 
-![DynamoDB Table](/images/1-Worklog/1.5-Week5/week5-2.png)
+![DynamoDB Table](/workshop_intership_report/images/1-Worklog/1.5-Week5/week5-2.png)
 <p align="center"><i>Figure 2: Interacting with the Amazon DynamoDB NoSQL database by adding and querying items.</i></p>
 

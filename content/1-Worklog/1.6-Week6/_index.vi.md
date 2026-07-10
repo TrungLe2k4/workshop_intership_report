@@ -37,11 +37,11 @@ Lưu vào thư mục /images/1-Worklog/1.6-Week6/ và đặt tên tương ứng:
 3. week6-3.png: Chụp giao diện AWS CloudTrail Event History hiển thị danh sách các API calls (VD: RunInstances, ConsoleLogin).
 -->
 
-![CloudWatch Alarm](/images/1-Worklog/1.6-Week6/week6-1.png)
+![CloudWatch Alarm](/workshop_intership_report/images/1-Worklog/1.6-Week6/week6-1.png)
 <p align="center"><i>Hình 1: Thiết lập cảnh báo Amazon CloudWatch Alarm để giám sát chỉ số và tự động hóa quy trình phản hồi sự cố.</i></p>
 
-![SNS Email Notification](/images/1-Worklog/1.6-Week6/week6-2.png)
+![SNS Email Notification](/workshop_intership_report/images/1-Worklog/1.6-Week6/week6-2.png)
 <p align="center"><i>Hình 2: Nhận thành công email cảnh báo tự động được định tuyến qua dịch vụ Amazon SNS.</i></p>
 
-![CloudTrail Event History](/images/1-Worklog/1.6-Week6/week6-3.png)
+![CloudTrail Event History](/workshop_intership_report/images/1-Worklog/1.6-Week6/week6-3.png)
 <p align="center"><i>Hình 3: Ứng dụng AWS CloudTrail để duy trì nhật ký kiểm toán số độ chính xác cao phục vụ công tác điều tra an ninh mạng.</i></p>

@@ -103,4 +103,4 @@ Several ideas can be directly applied to my own projects.
 
 ## Event Photos
 
-![](/images/4-EventParticipated/4.1-Event1/event-1.png)
+![](/workshop_intership_report/images/4-EventParticipated/4.1-Event1/event-1.png)

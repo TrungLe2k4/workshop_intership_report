@@ -38,11 +38,11 @@ Lưu vào thư mục /images/1-Worklog/1.9-Week9/ và đặt tên tương ứng:
 3. week9-3.png: Chụp giao diện "Peering connections" hiển thị một kết nối đang có trạng thái (Status) là "Active".
 -->
 
-![VPC Resource Map](/images/1-Worklog/1.9-Week9/week9-1.png)
+![VPC Resource Map](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-1.png)
 <p align="center"><i>Hình 1: Trực quan hóa kiến trúc liên kết mạng của Amazon VPC tùy chỉnh, thể hiện sự phân ranh giới rõ ràng giữa Public và Private Subnets.</i></p>
 
-![Defense-in-Depth NACL](/images/1-Worklog/1.9-Week9/week9-2.png)
+![Defense-in-Depth NACL](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-2.png)
 <p align="center"><i>Hình 2: Cấu hình quy tắc tường lửa phi trạng thái (NACL) nhằm đánh chặn sớm các luồng truy cập độc hại tại cửa ngõ phân khu mạng.</i></p>
 
-![VPC Peering Connection](/images/1-Worklog/1.9-Week9/week9-3.png)
+![VPC Peering Connection](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-3.png)
 <p align="center"><i>Hình 3: Thiết lập cầu nối mạng nội bộ bảo mật cao cấp giữa các VPC độc lập thông qua VPC Peering.</i></p>

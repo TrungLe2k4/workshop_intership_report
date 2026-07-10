@@ -36,9 +36,9 @@ Image requirements for Week 4:
 
 -->
 
-![Target Group Health](/images/1-Worklog/1.4-Week4/week4-1.png)
+![Target Group Health](/workshop_intership_report/images/1-Worklog/1.4-Week4/week4-1.png)
 <p align="center"><i>Figure 1: Verifying that EC2 instances successfully pass the Application Load Balancer's health checks.</i></p>
 
-![Auto Scaling Group](/images/1-Worklog/1.4-Week4/week4-2.png)
+![Auto Scaling Group](/workshop_intership_report/images/1-Worklog/1.4-Week4/week4-2.png)
 <p align="center"><i>Figure 2: Configuring the Auto Scaling Group to dynamically provision instances based on traffic load.</i></p>
 

@@ -37,9 +37,9 @@ Image requirements for Week 3:
 
 -->
 
-![EC2 Instance Running](/images/1-Worklog/1.3-Week3/week3-1.png)
+![EC2 Instance Running](/workshop_intership_report/images/1-Worklog/1.3-Week3/week3-1.png)
 <p align="center"><i>Figure 1: Successfully provisioned and launched a Linux Amazon EC2 instance.</i></p>
 
-![Security Group Configuration](/images/1-Worklog/1.3-Week3/week3-2.png)
+![Security Group Configuration](/workshop_intership_report/images/1-Worklog/1.3-Week3/week3-2.png)
 <p align="center"><i>Figure 2: Configuring stateful firewall rules via Security Groups to allow HTTP and restricted SSH traffic.</i></p>
 

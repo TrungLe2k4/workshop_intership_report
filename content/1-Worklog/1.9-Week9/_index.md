@@ -37,11 +37,11 @@ Image requirements for Week 9:
 3. week9-3.png: Screenshot of the VPC Peering Connections dashboard showing an "Active" peering connection.
 -->
 
-![VPC Resource Map](/images/1-Worklog/1.9-Week9/week9-1.png)
+![VPC Resource Map](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-1.png)
 <p align="center"><i>Figure 1: Visualizing the custom Amazon VPC topology, detailing the strict segregation of Public and Private Subnets.</i></p>
 
-![Defense-in-Depth NACL](/images/1-Worklog/1.9-Week9/week9-2.png)
+![Defense-in-Depth NACL](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-2.png)
 <p align="center"><i>Figure 2: Configuring stateless Network Access Control Lists (NACL) to preemptively filter malicious traffic at the subnet perimeter.</i></p>
 
-![VPC Peering Connection](/images/1-Worklog/1.9-Week9/week9-3.png)
+![VPC Peering Connection](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-3.png)
 <p align="center"><i>Figure 3: Establishing a secure, private network bridge between independent VPCs via VPC Peering.</i></p>

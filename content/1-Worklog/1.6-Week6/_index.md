@@ -36,11 +36,11 @@ Image requirements for Week 6:
 3. week6-3.png: Screenshot of AWS CloudTrail Event History showing recent API activity (e.g., RunInstances, ConsoleLogin).
 -->
 
-![CloudWatch Alarm](/images/1-Worklog/1.6-Week6/week6-1.png)
+![CloudWatch Alarm](/workshop_intership_report/images/1-Worklog/1.6-Week6/week6-1.png)
 <p align="center"><i>Figure 1: Setting up an Amazon CloudWatch Alarm to monitor metrics and trigger automated alerts.</i></p>
 
-![SNS Email Notification](/images/1-Worklog/1.6-Week6/week6-2.png)
+![SNS Email Notification](/workshop_intership_report/images/1-Worklog/1.6-Week6/week6-2.png)
 <p align="center"><i>Figure 2: Successfully receiving an automated alert via email routed through Amazon SNS.</i></p>
 
-![CloudTrail Event History](/images/1-Worklog/1.6-Week6/week6-3.png)
+![CloudTrail Event History](/workshop_intership_report/images/1-Worklog/1.6-Week6/week6-3.png)
 <p align="center"><i>Figure 3: Utilizing AWS CloudTrail to maintain a precise digital audit log of all API activities for cybersecurity forensics.</i></p>

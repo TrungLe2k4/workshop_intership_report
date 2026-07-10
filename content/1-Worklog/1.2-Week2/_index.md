@@ -36,9 +36,9 @@ Image requirements for this week:
 2. week2-2.png: Screenshot of a custom JSON policy you created in the IAM Policy visual editor.
 -->
 
-![MFA Enabled](/images/1-Worklog/1.2-Week2/week2-1.png)
+![MFA Enabled](/workshop_intership_report/images/1-Worklog/1.2-Week2/week2-1.png)
 <p align="center"><i>Figure 1: Successfully secured the AWS account by enabling Multi-Factor Authentication (MFA).</i></p>
 
-![JSON IAM Policy](/images/1-Worklog/1.2-Week2/week2-2.png)
+![JSON IAM Policy](/workshop_intership_report/images/1-Worklog/1.2-Week2/week2-2.png)
 <p align="center"><i>Figure 2: Constructing a custom IAM Policy using JSON format to enforce strict access controls.</i></p>
 

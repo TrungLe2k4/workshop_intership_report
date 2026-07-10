@@ -32,8 +32,8 @@ pre: " <b> 1.7. </b> "
 
 
 
-![AWS Backup Plan](/images/1-Worklog/1.7-Week7/week7-2.png)
+![AWS Backup Plan](/workshop_intership_report/images/1-Worklog/1.7-Week7/week7-2.png)
 <p align="center"><i>Figure 1: Centralized AWS Backup Plan configured to automate data protection and compliance.</i></p>
 
-![S3 Block Public Access](/images/1-Worklog/1.7-Week7/week7-3.png)
+![S3 Block Public Access](/workshop_intership_report/images/1-Worklog/1.7-Week7/week7-3.png)
 <p align="center"><i>Figure 2: Enforcing robust cloud security by applying strict Block Public Access policies on Amazon S3.</i></p>

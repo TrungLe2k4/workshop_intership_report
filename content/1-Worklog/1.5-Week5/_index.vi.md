@@ -34,11 +34,12 @@ pre: " <b> 1.5. </b> "
 Lưu vào thư mục /images/1-Worklog/1.5-Week5/ và đặt tên tương ứng:
 1. week5-1.png: Chụp màn hình RDS Dashboard hiển thị Database đang ở trạng thái "Available".
 2. week5-2.png: Chụp màn hình DynamoDB (phần Explore items) hiển thị bảng dữ liệu có các item mẫu bên trong.
---!>
+-->
 
-![Amazon RDS Deployment](/images/1-Worklog/1.5-Week5/week5-1.png)
+
+![Amazon RDS Deployment](/workshop_intership_report/images/1-Worklog/1.5-Week5/week5-1.png)
 <p align="center"><i>Hình 1: Khởi tạo thành công cơ sở dữ liệu Amazon RDS bên trong phân vùng mạng nội bộ (Private Subnet).</i></p>
 
-![DynamoDB Table](/images/1-Worklog/1.5-Week5/week5-2.png)
+![DynamoDB Table](/workshop_intership_report/images/1-Worklog/1.5-Week5/week5-2.png)
 <p align="center"><i>Hình 2: Tương tác với cơ sở dữ liệu phi quan hệ Amazon DynamoDB thông qua việc thêm và truy vấn các bản ghi.</i></p>
 

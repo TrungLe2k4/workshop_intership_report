@@ -63,4 +63,4 @@ Game Show Cloud Architect không chỉ là một hoạt động giải trí mà 
 
 ## Hình ảnh tại sự kiện
 
-![](/images/4-EventParticipated/4.2-Event2/event.png)
+![](/workshop_intership_report/images/4-EventParticipated/4.2-Event2/event.png)

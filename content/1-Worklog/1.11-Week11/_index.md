@@ -30,11 +30,11 @@ pre: " <b> 1.11. </b> "
 
 ---
 
-![S3 Event & Lifecycle](/images/1-Worklog/1.11-Week11/week11-1.png)
+![S3 Event & Lifecycle](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-1.png)
 <p align="center"><i>Figure 1: Establishing Event-Driven pipelines via S3 Event Notifications and FinOps compliance via S3 Lifecycle rules.</i></p>
 
-![Serverless AI Worker](/images/1-Worklog/1.11-Week11/week11-2.png)
+![Serverless AI Worker](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-2.png)
 <p align="center"><i>Figure 2: AWS Lambda configured as an AI Worker, triggered by SQS to process invoices using Amazon Textract.</i></p>
 
-![AWS WAF Rate Limiting](/images/1-Worklog/1.11-Week11/week11-3.png)
+![AWS WAF Rate Limiting](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-3.png)
 <p align="center"><i>Figure 3: Enforcing API security and preventing DDoS attacks via AWS WAF Rate-based rules (BlockSpamIP).</i></p>

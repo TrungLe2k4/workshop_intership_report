@@ -64,4 +64,4 @@ Finally, collaborating with teammates from different technical backgrounds showe
 
 ## Event Photos
 
-![](/images/4-EventParticipated/4.2-Event2/event.png)
+![](/workshop_intership_report/images/4-EventParticipated/4.2-Event2/event.png)

@@ -30,11 +30,11 @@ pre: " <b> 1.12. </b> "
 
 ---
 
-![Cognito Authentication UI](/images/1-Worklog/1.12-Week12/week12-1.png)
+![Cognito Authentication UI](/workshop_intership_report/images/1-Worklog/1.12-Week12/week12-1.png)
 <p align="center"><i>Figure 1: Secure authentication flow handling Amazon Cognito's Challenge Password requirements.</i></p>
 
-![IDP Dashboard](/images/1-Worklog/1.12-Week12/week12-2.png)
+![IDP Dashboard](/workshop_intership_report/images/1-Worklog/1.12-Week12/week12-2.png)
 <p align="center"><i>Figure 2: Financial Dashboard featuring dynamic data visualization and real-time budget threshold alerts.</i></p>
 
-![Side-by-side UX](/images/1-Worklog/1.12-Week12/week12-3.png)
+![Side-by-side UX](/workshop_intership_report/images/1-Worklog/1.12-Week12/week12-3.png)
 <p align="center"><i>Figure 3: Side-by-side Data Quality Control interface, allowing human validation against Textract AI output.</i></p>

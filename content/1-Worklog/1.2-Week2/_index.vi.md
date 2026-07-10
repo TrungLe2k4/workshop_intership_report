@@ -36,9 +36,9 @@ Trung hãy chụp 3 tấm ảnh sau, lưu vào thư mục /images/1-Worklog/1.2-
 2. Ảnh 2 (week2-2.png): Chụp giao diện khung soạn thảo JSON khi bạn đang tạo hoặc xem một IAM Policy bất kỳ trên AWS Console.
 -->
 
-![MFA Enabled](/images/1-Worklog/1.2-Week2/week2-1.png)
+![MFA Enabled](/workshop_intership_report/images/1-Worklog/1.2-Week2/week2-1.png)
 <p align="center"><i>Hình 1: Bảo mật thành công tài khoản AWS bằng cách kích hoạt tính năng Xác thực đa yếu tố (MFA).</i></p>
 
-![JSON IAM Policy](/images/1-Worklog/1.2-Week2/week2-2.png)
+![JSON IAM Policy](/workshop_intership_report/images/1-Worklog/1.2-Week2/week2-2.png)
 <p align="center"><i>Hình 2: Xây dựng cấu trúc phân quyền IAM Policy tùy chỉnh bằng định dạng JSON để kiểm soát truy cập chặt chẽ.</i></p>
 

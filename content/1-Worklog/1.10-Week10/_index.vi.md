@@ -30,6 +30,6 @@ pre: " <b> 1.10. </b> "
 ---
 
 
-![IDP Architecture Diagram](/images/1-Worklog/1.10-Week10/week10-1.png)
+![IDP Architecture Diagram](/workshop_intership_report/images/1-Worklog/1.10-Week10/week10-1.png)
 <p align="center"><i>Hình 1: Bản vẽ kiến trúc Runtime hoàn chỉnh cho hệ thống xử lý tài liệu thông minh Serverless IDP.</i></p>
 

@@ -30,11 +30,11 @@ pre: " <b> 1.11. </b> "
 ---
 
 ### [Ghi chú cho Trung: Các hình ảnh cần chụp để thay thế vào chỗ này]
-![S3 Event & Lifecycle](/images/1-Worklog/1.11-Week11/week11-1.png)
+![S3 Event & Lifecycle](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-1.png)
 <p align="center"><i>Hình 1: Tự động hóa quy trình với S3 Event Notification và kỷ luật tài chính FinOps bằng S3 Lifecycle Rule.</i></p>
 
-![Serverless AI Worker](/images/1-Worklog/1.11-Week11/week11-2.png)
+![Serverless AI Worker](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-2.png)
 <p align="center"><i>Hình 2: Cấu trúc hàm Lambda AI Worker được kích hoạt thông qua hàng đợi SQS để bóc tách hóa đơn bằng Amazon Textract.</i></p>
 
-![AWS WAF Rate Limiting](/images/1-Worklog/1.11-Week11/week11-3.png)
+![AWS WAF Rate Limiting](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-3.png)
 <p align="center"><i>Hình 3: Thiết lập rào chắn AWS WAF chặn Spam API để chống cạn kiệt tài nguyên Serverless.</i></p>

@@ -31,11 +31,11 @@ pre: " <b> 1.12. </b> "
 ---
 
 
-![Cognito Authentication UI](/images/1-Worklog/1.12-Week12/week12-1.png)
+![Cognito Authentication UI](/workshop_intership_report/images/1-Worklog/1.12-Week12/week12-1.png)
 <p align="center"><i>Hình 1: Luồng xác thực bảo mật xử lý yêu cầu đổi mật khẩu bắt buộc từ Amazon Cognito.</i></p>
 
-![IDP Dashboard](/images/1-Worklog/1.12-Week12/week12-2.png)
+![IDP Dashboard](/workshop_intership_report/images/1-Worklog/1.12-Week12/week12-2.png)
 <p align="center"><i>Hình 2: Bảng điều khiển tài chính (Dashboard) với đồ thị trực quan và thanh cảnh báo ngân sách thời gian thực.</i></p>
 
-![Side-by-side UX](/images/1-Worklog/1.12-Week12/week12-3.png)
+![Side-by-side UX](/workshop_intership_report/images/1-Worklog/1.12-Week12/week12-3.png)
 <p align="center"><i>Hình 3: Giao diện kiểm soát chất lượng dữ liệu Side-by-side, cho phép người dùng đối chiếu ảnh gốc với kết quả AI bóc tách.</i></p>

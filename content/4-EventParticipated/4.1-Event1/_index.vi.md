@@ -102,4 +102,4 @@ Tôi dự định áp dụng một số kiến thức đã học vào các dự 
 
 ## Hình ảnh tại sự kiện
 
-![](/images/4-EventParticipated/4.1-Event1/event-1.png)
+![](/workshop_intership_report/images/4-EventParticipated/4.1-Event1/event-1.png)

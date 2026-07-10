@@ -38,11 +38,11 @@ Image requirements for this week:
 3. week1-3.png: Screenshot of your notes or study material depicting the Shared Responsibility Model.
 -->
 
-![AWS Console Login](/images/1-Worklog/1.1-Week1/week1-1.png)
+![AWS Console Login](/workshop_intership_report/images/1-Worklog/1.1-Week1/week1-1.png)
 <p align="center"><i>Figure 1: Successfully created the AWS Free Tier account and logged into the AWS Management Console.</i></p>
 
-![AWS Regions](/images/1-Worklog/1.1-Week1/week1-2.png)
+![AWS Regions](/workshop_intership_report/images/1-Worklog/1.1-Week1/week1-2.png)
 <p align="center"><i>Figure 2: Exploring the AWS Global Infrastructure by navigating through different AWS Regions on the console.</i></p>
 
-![Shared Responsibility Model](/images/1-Worklog/1.1-Week1/week1-4.png)
+![Shared Responsibility Model](/workshop_intership_report/images/1-Worklog/1.1-Week1/week1-4.png)
 <p align="center"><i>Figure 3: Reviewing the AWS Shared Responsibility Model to understand the security boundaries between AWS and the customer.</i></p>
