@@ -82,73 +82,55 @@ Dashboard APIs retrieve invoice records and statistical data from DynamoDB for v
 - AWS Budgets
 
 ### Component Design
-
 **Frontend & Hosting**
 - React Single Page Application (SPA)
 - AWS Amplify (Hosting & CI/CD)
 - Amazon Route 53 (DNS)
-
 **Authentication**
 - Amazon Cognito User Pool
 - JWT Authentication
-
 **Backend API**
 - Amazon API Gateway
 - AWS Lambda
-
 **Upload Service**
 - Amazon S3
 - S3 Presigned URL
-
 **AI Processing**
 - Amazon SQS
 - AWS Lambda AI Worker
 - Amazon Textract
-
 **Database**
 - Amazon DynamoDB
-
 **Security**
 - AWS WAF (API Protection)
 - AWS IAM
 - AWS KMS
-
 **Monitoring**
 - AWS Budgets
-
 ---
 
 ## 4. Technical Implementation
-
 ### Implementation Phases
-
 The project is divided into four major phases.
-
 **Phase 1**
 - Requirement analysis
 - AWS architecture design
 - Data processing workflow analysis
-
 **Phase 2**
 - Frontend development and AWS Amplify deployment
 - Amazon Cognito integration
 - REST API development using Amazon API Gateway and AWS Lambda
-
 **Phase 3**
 - Implement document upload workflow via Presigned URLs
 - Process documents using Amazon Textract
 - Store extracted data in Amazon DynamoDB
-
 **Phase 4**
 - Develop dashboard and reporting features
 - System testing
 - Cost optimization
 - Final deployment
-
 ### Technical Requirements
-
 Required technologies include:
-
 - AWS Lambda
 - AWS Amplify
 - Amazon Route 53
@@ -178,12 +160,10 @@ Required technologies include:
     - Learn AWS Serverless services.
     - Design the system architecture.
     - Develop the frontend and deploy via AWS Amplify.
-
   - **Month 2**
     - Implement secure document upload functionality.
     - Develop the AI processing workflow.
     - Integrate Amazon Textract and Amazon DynamoDB.
-
   - **Month 3**
     - Build dashboard and reporting features.
     - Configure AWS WAF and perform system testing.
@@ -233,41 +213,32 @@ Because the solution adopts a **Serverless Pay-as-you-go** pricing model, it is 
 ---
 
 ## 7. Risk Assessment
-
 ### Risk Matrix
 
 - Incorrect information extraction by Amazon Textract.
 - Document upload failures due to unstable Internet connections.
 - Increased Amazon Textract costs as document volume grows.
 - AWS Lambda timeout when processing very large documents.
-
 ### Mitigation Strategy
-
 - Validate extracted data before storing it.
 - Use Amazon SQS for asynchronous processing.
 - Configure AWS Budgets to monitor infrastructure costs.
 - Restrict the maximum upload file size.
-
 ### Contingency Plan
-
 - Allow users to re-upload failed documents.
 - Enable automatic retry through Amazon SQS.
 - Monitor errors using Amazon CloudWatch Logs.
 - Encrypt sensitive information using AWS KMS.
-
 ---
 
 ## 8. Expected Outcomes
-
 ### Technical Improvements
 
 - Fully automated document processing workflow.
 - Significant reduction in manual data entry time.
 - Higher extraction accuracy using Amazon Textract.
 - Highly scalable Serverless architecture with automated CI/CD.
-
 ### Long-term Value
-
 The proposed system can be extended to process various document types such as electronic invoices, business licenses, national ID cards, contracts, and other structured documents.
 
 Furthermore, the platform provides a solid foundation for integrating advanced AWS AI services such as **Amazon Comprehend** and **Amazon Bedrock** in the future, enabling more intelligent document analysis and richer business insights.

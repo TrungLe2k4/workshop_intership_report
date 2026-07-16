@@ -5,7 +5,6 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-
 Phần này trình bày ý tưởng đề xuất và kế hoạch triển khai cho dự án sẽ được phát triển trong suốt chương trình **AWS First Cloud AI Journey 2026**.
 
 # Hệ thống Xử lý Tài liệu Thông minh (IDP) Serverless
@@ -23,9 +22,7 @@ Toàn bộ giải pháp được xây dựng trên **Kiến trúc Serverless**, 
 ---
 
 ## 2. Đặt vấn đề (Problem Statement)
-
 ### Thách thức hiện tại
-
 Nhiều tổ chức hiện nay vẫn đang thực hiện nhập liệu thủ công từ hóa đơn và tài liệu kinh doanh. Quá trình này tiêu tốn nhiều thời gian, dễ xảy ra sai sót do con người, và làm cho việc tìm kiếm, báo cáo và phân tích thông tin trở nên khó khăn hơn.
 
 Bên cạnh đó, các hệ thống OCR truyền thống thường yêu cầu máy chủ chuyên dụng, cài đặt phần mềm và bảo trì hạ tầng liên tục, dẫn đến chi phí triển khai và vận hành cao.
@@ -87,58 +84,44 @@ Nhóm Dashboard APIs sẽ truy xuất hồ sơ hóa đơn và dữ liệu thốn
 - Ứng dụng React (SPA)
 - AWS Amplify (Hosting & CI/CD)
 - Amazon Route 53 (DNS)
-
 **Xác thực (Authentication)**
 - Amazon Cognito User Pool
 - Xác thực JWT
-
 **API Phía sau (Backend API)**
 - Amazon API Gateway
 - AWS Lambda
-
 **Dịch vụ Tải lên (Upload Service)**
 - Amazon S3
 - S3 Presigned URL
-
 **Xử lý AI (AI Processing)**
 - Amazon SQS
 - AWS Lambda AI Worker
 - Amazon Textract
-
 **Cơ sở dữ liệu (Database)**
 - Amazon DynamoDB
-
 **Bảo mật (Security)**
 - AWS WAF (Bảo vệ API)
 - AWS IAM
 - AWS KMS
-
 **Giám sát (Monitoring)**
 - AWS Budgets
-
 ---
 
 ## 4. Triển khai Kỹ thuật (Technical Implementation)
-
 ### Các Giai đoạn Triển khai
-
 Dự án được chia thành 4 giai đoạn chính.
-
 **Giai đoạn 1**
 - Phân tích yêu cầu
 - Thiết kế kiến trúc AWS
 - Phân tích luồng xử lý dữ liệu
-
 **Giai đoạn 2**
 - Phát triển Frontend và triển khai lên AWS Amplify
 - Tích hợp Amazon Cognito
 - Phát triển REST API bằng Amazon API Gateway và AWS Lambda
-
 **Giai đoạn 3**
 - Xây dựng luồng tải tài liệu qua Presigned URLs
 - Xử lý tài liệu bằng Amazon Textract
 - Lưu trữ dữ liệu bóc tách vào Amazon DynamoDB
-
 **Giai đoạn 4**
 - Phát triển các tính năng bảng điều khiển (dashboard) và báo cáo
 - Kiểm thử hệ thống
