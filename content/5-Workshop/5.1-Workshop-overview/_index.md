@@ -16,6 +16,6 @@ In this workshop, you will build a fully serverless, event-driven IDP architectu
 * **Asynchronous Messaging:** An Amazon SQS queue (**idp-document-queue**) will act as a buffer between S3 uploads and the processing logic.
 * **Compute & AI:** AWS Lambda functions (**idp-ai-worker**) will process incoming documents by calling Amazon Textract to query and extract specific text fields.
 * **Security & APIs:** The backend will be exposed via Amazon API Gateway (**idp-rest-api**). You will secure the application using Amazon Cognito for user authentication and AWS WAF (**idp-api-waf-shield**) to block spam and malicious requests.
-* **Frontend & Hosting:** A React Single-Page Application (SPA) will be deployed via **AWS Amplify** with an automated CI/CD pipeline. You will configure a custom domain using **Amazon Route 53** to interact securely with the backend APIs via HTTPS.
+* **Frontend & Hosting:** A React Single-Page Application (SPA) will be deployed via **AWS Amplify** with an automated CI/CD pipeline. Configure a custom domain using **Amazon Route 53** to interact securely with the backend APIs via HTTPS.
 
 ![overview](/workshop_intership_report/images/5-Workshop/5.1-Workshop-overview/diagram2.png)

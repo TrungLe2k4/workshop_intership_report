@@ -16,6 +16,6 @@ Trong workshop này, bạn sẽ xây dựng một kiến trúc IDP serverless ho
 * **Hàng đợi Bất đồng bộ:** Amazon SQS queue (**idp-document-queue**) sẽ đóng vai trò là bộ đệm giữa quá trình upload lên S3 và logic xử lý AI.
 * **Tính toán & AI:** Các hàm AWS Lambda (**idp-ai-worker**) sẽ xử lý tài liệu bằng cách gọi Amazon Textract để truy vấn và trích xuất các trường văn bản cụ thể.
 * **Bảo mật & API:** Backend hệ thống sẽ được cung cấp thông qua Amazon API Gateway (**idp-rest-api**). Bạn sẽ bảo mật ứng dụng bằng Amazon Cognito để xác thực người dùng và AWS WAF (**idp-api-waf-shield**) để chặn các request spam và tấn công.
-* **Giao diện & Triển khai:** Ứng dụng React Single-Page Application (SPA) sẽ được triển khai thông qua **AWS Amplify** với quy trình CI/CD tự động. Bạn sẽ cấu hình tên miền tùy chỉnh sử dụng **Amazon Route 53** để tương tác an toàn với Backend API thông qua HTTPS.
+* **Giao diện & Triển khai:** Ứng dụng React Single-Page Application (SPA) sẽ được triển khai thông qua **AWS Amplify** với quy trình CI/CD tự động. Cấu hình tên miền tùy chỉnh sử dụng **Amazon Route 53** để tương tác an toàn với Backend API thông qua HTTPS.
 
 ![overview](/workshop_intership_report/images/5-Workshop/5.1-Workshop-overview/diagram2.png)
