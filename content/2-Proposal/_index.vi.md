@@ -63,7 +63,7 @@ Người dùng xác thực thông qua Amazon Cognito. Sau khi đăng nhập thà
 
 Nhóm Dashboard APIs sẽ truy xuất hồ sơ hóa đơn và dữ liệu thống kê từ DynamoDB để hiển thị trực quan trên ứng dụng web.
 
-![Architecture Diagram](/workshop_intership_report/images/2-Proposal/diagram1.png)
+![Architecture Diagram](/workshop_intership_report/images/2-Proposal/diagram2.png)
 
 ### Các Dịch vụ AWS Sử dụng
 
