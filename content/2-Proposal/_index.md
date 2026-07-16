@@ -34,9 +34,9 @@ In addition, traditional OCR systems typically require dedicated servers, softwa
 
 Our team proposes a fully serverless Intelligent Document Processing system built entirely on AWS cloud services.
 
-Users upload documents through a web application. The system generates **Amazon S3 Presigned URLs**, allowing documents to be uploaded directly to Amazon S3. After the upload is completed, an asynchronous processing workflow is triggered using Amazon SQS and AWS Lambda. The Lambda function invokes Amazon Textract to extract document information and stores the structured results in Amazon DynamoDB.
+Users interact with a React web application hosted securely on AWS Amplify. When uploading documents, the system generates **Amazon S3 Presigned URLs**, allowing files to be pushed directly to Amazon S3. After the upload is completed, an asynchronous event-driven workflow is triggered using Amazon SQS and AWS Lambda. The Lambda AI Worker invokes Amazon Textract to extract document information and stores the structured results in Amazon DynamoDB.
 
-The frontend communicates with REST APIs hosted on Amazon API Gateway to display invoice history, statistical dashboards, and analytical reports.
+The frontend communicates with REST APIs hosted on Amazon API Gateway—protected by AWS WAF—to display invoice history, statistical dashboards, and analytical reports.
 
 ### Benefits and ROI
 
@@ -45,7 +45,7 @@ The proposed solution offers several advantages:
 - Fully automates document processing.
 - Reduces manual data entry time.
 - Improves data accuracy through AI.
-- Eliminates server management.
+- Eliminates server management and streamlines deployment via CI/CD.
 - Low operational cost with a pay-as-you-go pricing model.
 - Easily scales as document volume increases.
 
@@ -55,11 +55,11 @@ The proposed solution offers several advantages:
 
 The system is designed using an **Event-Driven Serverless Architecture**.
 
-The React frontend is hosted on Amazon S3 and globally distributed through Amazon CloudFront. AWS WAF is integrated to protect the web application from malicious traffic and common web attacks.
+The React frontend is hosted on **AWS Amplify**, which provides built-in CI/CD automation and secure HTTPS delivery. **Amazon Route 53** is utilized for custom domain DNS resolution. To secure the core infrastructure, **AWS WAF (Regional)** is attached directly to the Amazon API Gateway to protect the backend APIs from malicious traffic and rate-limit spam requests.
 
 Users authenticate through Amazon Cognito. After successful authentication, Amazon API Gateway validates JWT tokens before forwarding requests to AWS Lambda functions.
 
-For document uploads, AWS Lambda generates a Presigned URL, allowing users to upload documents directly to Amazon S3. Whenever a new object is created, Amazon S3 generates an **ObjectCreated** event and sends a message to Amazon SQS. The Lambda AI Worker retrieves documents from the queue, submits them to Amazon Textract for document analysis, and stores the extracted JSON results in Amazon DynamoDB.
+For document uploads, AWS Lambda generates a Presigned URL, allowing users to upload documents directly to the Amazon S3 Ingest Bucket. Whenever a new object is created, Amazon S3 generates an **ObjectCreated** event and sends a message to Amazon SQS. The Lambda AI Worker retrieves documents from the queue, submits them to Amazon Textract for document analysis using advanced QUERIES, and stores the extracted JSON results in Amazon DynamoDB.
 
 Dashboard APIs retrieve invoice records and statistical data from DynamoDB for visualization on the web application.
 
@@ -67,7 +67,8 @@ Dashboard APIs retrieve invoice records and statistical data from DynamoDB for v
 
 ### AWS Services Used
 
-- Amazon CloudFront
+- AWS Amplify
+- Amazon Route 53
 - AWS WAF
 - Amazon S3
 - Amazon API Gateway
@@ -82,10 +83,10 @@ Dashboard APIs retrieve invoice records and statistical data from DynamoDB for v
 
 ### Component Design
 
-**Frontend**
+**Frontend & Hosting**
 - React Single Page Application (SPA)
-- Amazon S3
-- Amazon CloudFront
+- AWS Amplify (Hosting & CI/CD)
+- Amazon Route 53 (DNS)
 
 **Authentication**
 - Amazon Cognito User Pool
@@ -108,7 +109,7 @@ Dashboard APIs retrieve invoice records and statistical data from DynamoDB for v
 - Amazon DynamoDB
 
 **Security**
-- AWS WAF
+- AWS WAF (API Protection)
 - AWS IAM
 - AWS KMS
 
@@ -129,12 +130,12 @@ The project is divided into four major phases.
 - Data processing workflow analysis
 
 **Phase 2**
-- Frontend development
+- Frontend development and AWS Amplify deployment
 - Amazon Cognito integration
 - REST API development using Amazon API Gateway and AWS Lambda
 
 **Phase 3**
-- Implement document upload workflow
+- Implement document upload workflow via Presigned URLs
 - Process documents using Amazon Textract
 - Store extracted data in Amazon DynamoDB
 
@@ -149,6 +150,8 @@ The project is divided into four major phases.
 Required technologies include:
 
 - AWS Lambda
+- AWS Amplify
+- Amazon Route 53
 - Amazon S3
 - Amazon API Gateway
 - Amazon Cognito
@@ -174,16 +177,16 @@ Required technologies include:
   - **Month 1**
     - Learn AWS Serverless services.
     - Design the system architecture.
-    - Develop the frontend and backend APIs.
+    - Develop the frontend and deploy via AWS Amplify.
 
   - **Month 2**
-    - Implement document upload functionality.
+    - Implement secure document upload functionality.
     - Develop the AI processing workflow.
     - Integrate Amazon Textract and Amazon DynamoDB.
 
   - **Month 3**
     - Build dashboard and reporting features.
-    - Perform testing and debugging.
+    - Configure AWS WAF and perform system testing.
     - Optimize infrastructure costs.
     - Deploy the completed system.
 
@@ -205,10 +208,11 @@ The AWS Pricing Calculator will be updated once the final production architectur
 
 | AWS Service | Purpose | Estimated Monthly Cost |
 |--------------|---------------------------------------------|----------------:|
-| Amazon S3 | Store frontend assets and uploaded documents | 1.20 USD |
-| Amazon CloudFront | Content Delivery Network (CDN) | 1.50 USD |
-| AWS WAF | Protect the web application | 2.50 USD |
-| Amazon API Gateway | REST API | 0.80 USD |
+| AWS Amplify | Frontend Hosting & CI/CD | 1.00 USD |
+| Amazon Route 53 | Custom Domain DNS | 0.50 USD |
+| Amazon S3 | Document upload storage | 1.00 USD |
+| AWS WAF | Protect backend APIs (Regional) | 2.50 USD |
+| Amazon API Gateway | REST API routing | 0.80 USD |
 | AWS Lambda | Backend processing and AI workflow | 1.00 USD |
 | Amazon Cognito | User authentication | 0.00 USD *(Free Tier)* |
 | Amazon Textract | OCR and document analysis | 4.50 USD |
@@ -221,8 +225,8 @@ The AWS Pricing Calculator will be updated once the final production architectur
 
 | Item | Estimated Cost |
 |-----------------------------|----------------|
-| Monthly Infrastructure Cost | **≈ 12.35 USD / month** |
-| Annual Infrastructure Cost | **≈ 148 USD / year** |
+| Monthly Infrastructure Cost | **≈ 12.15 USD / month** |
+| Annual Infrastructure Cost | **≈ 145.80 USD / year** |
 
 Because the solution adopts a **Serverless Pay-as-you-go** pricing model, it is highly suitable for student research projects and small-to-medium-scale deployments.
 
@@ -260,7 +264,7 @@ Because the solution adopts a **Serverless Pay-as-you-go** pricing model, it is 
 - Fully automated document processing workflow.
 - Significant reduction in manual data entry time.
 - Higher extraction accuracy using Amazon Textract.
-- Highly scalable Serverless architecture.
+- Highly scalable Serverless architecture with automated CI/CD.
 
 ### Long-term Value
 

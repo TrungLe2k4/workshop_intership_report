@@ -29,6 +29,6 @@ pre: " <b> 1.10. </b> "
 
 ---
 
-![IDP Architecture Diagram](/workshop_intership_report/images/1-Worklog/1.10-Week10/week10-1.png)
+![IDP Architecture Diagram](/workshop_intership_report/images/1-Worklog/1.10-Week10/week10-2.png)
 <p align="center"><i>Figure 1: Comprehensive Runtime Architecture for the Serverless Intelligent Document Processing system.</i></p>
 
