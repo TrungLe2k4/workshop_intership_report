@@ -44,5 +44,5 @@ Yêu cầu hình ảnh cho tuần này (Lưu vào thư mục /images/1-Worklog/1
 ![AWS Regions](/workshop_intership_report/images/1-Worklog/1.1-Week1/week1-2.png)
 <p align="center"><i>Hình 2: Khám phá Hạ tầng Toàn cầu AWS bằng cách điều hướng qua các AWS Region khác nhau trên console.</i></p>
 
-![Shared Responsibility Model](/workshop_intership_report/images/1-Worklog/1.1-Week1/week1-3.png)
+![Shared Responsibility Model](/workshop_intership_report/images/1-Worklog/1.1-Week1/week1-4.png)
 <p align="center"><i>Hình 3: Xem xét Mô hình Trách nhiệm Chia sẻ AWS để thấu hiểu ranh giới bảo mật giữa AWS và khách hàng.</i></p>
